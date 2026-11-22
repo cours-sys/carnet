@@ -1,7 +1,7 @@
 /* Carnet de révision : fonctionnement hors ligne (recommandation 13, 18 nov. 2026).
    La page (chiffrée) et les fichiers du site : réseau d'abord, copie gardée pour le hors-ligne.
    Les polices Google : copie gardée d'abord. Rien d'autre n'est intercepté (synchronisation Google Drive comprise). */
-var V = "carnet-1";
+var V = "carnet-2";
 var PAGE = new URL("./", self.registration.scope).href;
 self.addEventListener("install", function (e) {
   self.skipWaiting();
